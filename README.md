@@ -1,13 +1,13 @@
-# RIA ModelRun Client
+# ModelRun Client
 
 ## Installation
 ```bash
-pip3 install git+https://github.com/ria-com/modelhub-client.git
+pip3 install git+https://github.com/Goga1992/nstu-client.git
 ```
 or
 ```bash
-git clone https://github.com/ria-com/modelhub-client.git
-cd ./modelhub-client
+git clone https://github.com/Goga1992/nstu-client.git
+cd ./nstu-client
 python3 setup.py install
 ```
 
@@ -146,8 +146,3 @@ nstu_client remote_store --config_path=./data/remote_loading_json_eample.json
 python3 ./tests/test.py
 ```
 
-
-# model_hub == start_model
-# modelhub_client == nstu_client
-# ModelHub == ModelRun
-# ModelHubClientTest == ModelRunClientTest
